@@ -26,9 +26,10 @@
     line-height: 24px;    
     color: #828282;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 .btn{
-    margin-top: 1rem;
+    margin-top: 3rem;
     height: 52.55424118041992px;
     width: 217.4658203125px;
     left: 263.7748260498047px;
@@ -42,4 +43,12 @@
     font-size: 25.3018px;
     line-height: 30px;
     cursor: pointer;
+}
+.col__menu{
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.3333px;
+    line-height: 27px;
+    color: #4F4F4F;
 }
