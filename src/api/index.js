@@ -14,11 +14,11 @@ export function signUp(quary) {
     })
 }
 
-export function SignIn(quary) {
+export function signInFetch(quary) {
     if (!quary) {
         throw "please";
     }
-    let url =`auth/sign-in`;
+    const url =`auth/sign-in`;
     return axios.post(url,{
         email: `${quary.email}`,
         password: `${quary.password}`

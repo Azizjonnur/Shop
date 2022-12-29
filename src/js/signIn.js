@@ -1,4 +1,4 @@
-export function signIn(email, password){
+export function SignIn(email, password){
     try {
         this.email = email;
         this.password = password;
